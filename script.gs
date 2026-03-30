@@ -1,10 +1,11 @@
 const CONFIG = {
   SOURCE_CALENDAR_IDS: [
-    'sourceCalendar@gmail.com'
+    'sourceCalendar1@gmail.com',
+    'sourceCalendar2@gmail.com'
   ],
-  TARGET_CALENDAR_ID: 'targetCalendar@gmail.com',
+  TARGET_CALENDAR_ID: 'targetWorkCalendar@gmail.com',
   DAYS_AHEAD: 60,
-  SYNC_TAG_KEY: 'calSyncKey',
+  SYNC_TAG_KEY: 'busyBlockerCalSyncKey',
   TRIGGER_INTERVAL_MINUTES: 15,
 };
 
