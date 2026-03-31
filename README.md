@@ -54,8 +54,8 @@ const CONFIG = {
 ```
 
 - `SOURCE_CALENDAR_IDS` — email addresses of the personal calendars to sync from (must be shared with your work account per step 1)
-- `TARGET_CALENDAR_ID` — your work calendar email address
-- `DAYS_AHEAD` — how far ahead to sync (default 45 days)
+- `TARGET_CALENDAR_ID` — your work calendar email address - also the account in which the script is added
+- `DAYS_AHEAD` — how many days ahead to sync (default 60 days, but edit to suit your needs) 
 - `TRIGGER_INTERVAL_MINUTES` — how often the sync runs (minimum 15 minutes on Apps Script free tier)
 
 ### 5. Install the trigger
